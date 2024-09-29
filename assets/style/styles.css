@@ -9,6 +9,7 @@
   scroll-behavior: smooth;
   text-decoration: none;
   list-style: none;
+  input:focus {outline: none;}
 }
 
 body {
@@ -26,7 +27,7 @@ header {
   justify-content: center;
   font-weight: 500;
   font-size: 1.1rem;
-  border-bottom: 1px Inset #00346F;
+  border-bottom: 2px Inset #00346F;
   height: 4.5rem;
   background: #f0f3f0;
 }
@@ -372,7 +373,7 @@ main .cards .card.grafana:hover .button.grafana {
   background-color: #FF0013;
 }
 main .cards .card:hover {
-  border: 1px Groove;
+  border: 2px Groove;
 }
 main .cards .card:hover.apex {
   border-color: #00346F;
