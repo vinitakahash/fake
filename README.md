@@ -1,4 +1,4 @@
-<div align="center">
+<div>
   
 <h1> CDA - Aplicações Web </h1>
 <h3> Aplicação Web desenvolvida para o fácil acesso de links dos sites (Internet) e aplicações (Intranet) mais utilizados pelos colaboradores da CDA - Distribuidora</h3>
@@ -8,7 +8,7 @@
 </div>
 <br>
 <div>
-<h2 align="center">🛠️ Tecnologias utilizadas:<h2>
+<h2>🛠️ Tecnologias utilizadas:<h2>
 <ul>
 <li><code>HTML</code></li><p>Criação dos elementos da tela</p>
 <li><code>CSS</code></li><p>Estilização da aplicação;</p>
