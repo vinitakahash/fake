@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDA - Links Aplicações</title>
+    <link rel="shortcut icon" type="png" href="./assets/images/logo_cda.png">
+    <link rel="stylesheet" href="./assets/style/styles.css">
+    <script src="./assets/script/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <a href="#"><img src="./assets/images/logo_cdadistribuidora.png" alt="CDA-Distribuidora"></a>
+            <nav>
+                <a href="#apex" class="link-apex">Apex</a>
+                <a href="#oxar" class="link-oxar">Oxar</a>
+                <a href="#grafana" class="link-grafana">Grafana</a>
+            </nav>
+        </div>
+
+        <div class="intranet">
+            <ul class="opções">
+                <input type="checkbox" id="opções-menu" class="opções__botão">
+                <label for="opções-menu" class="opções__rotulo">
+                    <li class="opções__item">Internet</li>
+                </label>
+                <ul class="lista-menu"></ul>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <h1>Qual aplicação deseja?</h1>
+        <div class="search">
+        <div class="input-wrapper">
+            <label for="filter" class="sr-only"></label>
+            <div class="buscar">
+                <img src="./assets/images/lupa.png" alt="">
+                <input onkeyup="filtrar()" id="filter" type="text" placeholder=" Informe o nome da aplicação">
+                <ul id="listApplications"></ul>
+            </div>
+        </div>
+        </div> 
+
+        <section class="cards" id="apex"></section>
+        <section class="cards" id="grafana"></section>
+        <section class="cards" id="oxar"></section>
+    </main>
+
+    <footer>
+        <p>© 2024 CDA Distribuidora. Todos os direitos reservados. </p>
+    </footer>
+</body>
+</html>
